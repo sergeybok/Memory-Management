@@ -1,0 +1,16 @@
+README
+
+Compile with makefile:
+bash$ make
+
+Run:
+bash$ ./virtual-mem -a[] -f[] -o[OPFS] [Input file] [random file]
+
+
+compile manually:
+bash$ g++ virtual-mem.cpp
+
+Run:
+bash$ ./a.out -a[] -f[] -o[OPFS] [Input file] [random file]
+
+The -f,-a,-o, arguments can be in any order, but the rest need to be in that order. It might act up if you don't give it arguments-- no -o, it'll be fine, but no -f or -a will be problematic, I didn't set defaults.
